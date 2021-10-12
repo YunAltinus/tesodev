@@ -9,7 +9,7 @@ for running locally:
 
 # Dependencies
 
-######Heading 5axios: for HTTP request
+##### axios: for HTTP request
 - js-cookie: for storing data 
 - json-server: for create fake database
 - moment: for date format (dd/mm/yyyy)
