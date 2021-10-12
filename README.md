@@ -7,10 +7,12 @@ for running locally:
 - `json-server -w db.json -p 3004` and Get Connection Fake Database
 - `yarn dev` to start the local server from port 3000
 
+## Info
+**no need to use the search button because we are already watching**
+
 # Demo
 
 [vue-tesodev](https://vue-tesodev.netlify.app)
-
 
 # Code Overview
 
