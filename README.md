@@ -7,22 +7,20 @@ for running locally:
 - `json-server -w db.json -p 3004` and Get Connection Fake Database
 - `yarn dev` to start the local server from 3000 port
 
-## build for production and launch server
+# Dependencies
 
-# install dependencies
-$ yarn install
-
-# serve with hot reload at localhost:3000
-$ yarn dev
-
-# build for production and launch server
-$ yarn build
-$ yarn start
-
-# generate static project
-$ yarn generate
-
-
+- axios: "^0.21.4",
+- js-cookie: "^3.0.1",
+- json-server: "^0.17.0",
+- moment: "^2.29.1",
+- pug: "^3.0.2",
+- v-pagination-3: "^0.1.6",
+- vee-validate: "^4.5.2",
+- vue : "^3.2.13",
+- vue-router": "4",
+- vuex": "^4.0.2",
+- vuex-persistedstate": "^4.1.0",
+- yup": "^0.32.10"
 
 # Vue 3 + Vite
 
