@@ -1,4 +1,4 @@
 import axios from "axios";
 export const appAxios = axios.create({
-  baseURL: "http://localhost:3004",
+  baseURL: "https://tesodev-db.herokuapp.com/",
 });
