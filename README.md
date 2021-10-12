@@ -9,7 +9,7 @@ for running locally:
 
 # Demo
 
-**vue-tesodev**(https://github.com/pandao/editor.md "Heading link")
+[vue-tesodev](https://vue-tesodev.netlify.app)
 
 
 # Code Overview
