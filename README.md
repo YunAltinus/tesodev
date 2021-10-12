@@ -9,22 +9,22 @@ for running locally:
 
 # Dependencies
 
-##### axios: for HTTP request
-##### js-cookie: for storing data 
-- ##### json-server: for create fake database
-- ##### moment: for date format (dd/mm/yyyy)
-- ##### pug: for view engine
-- ##### v-pagination-3: fpr pagination
-- ##### vee-validate: for validation
-- ##### vue : vue app
-- ##### vue-router": router
-- ##### vuex: state managment
-- ##### vuex-persistedstate": for storing data in vuex
-- ##### yup: for validation
+- **axios**: for HTTP request
+- **js-cookie**: for storing data 
+- **json-server**: for create fake database
+- **moment**: for date format (dd/mm/yyyy)
+- **pug**: for view engine
+- **v-pagination-3**: fpr pagination
+- **vee-validate**: for validation
+- **vue** : vue app
+- **vue-router**": router
+- **vuex**: state managment
+- **vuex-persistedstate**: for storing data in vuex
+- **yup**: for validation
 
 # devDependencies
 
-- ##### sass: for css format
+- **sass**: for css format
 
 
 
