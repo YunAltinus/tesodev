@@ -1,3 +1,29 @@
+# Getting started
+
+for running locally:
+
+- Clone this repo
+- `yarn add` to install all required dependencies
+- `json-server -w db.json -p 3004` and Get Connection Fake Database
+- `yarn dev` to start the local server from 3000 port
+
+## build for production and launch server
+
+# install dependencies
+$ yarn install
+
+# serve with hot reload at localhost:3000
+$ yarn dev
+
+# build for production and launch server
+$ yarn build
+$ yarn start
+
+# generate static project
+$ yarn generate
+
+
+
 # Vue 3 + Vite
 
 This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
@@ -7,18 +33,7 @@ This template should help get you started developing with Vue 3 in Vite. The tem
 - [VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=johnsoncodehk.volar)
     
 
-# Getting started
 
-- Clone this repo
-- `yarn add` to install all required dependencies
-- `json-server -w db.json -p 3004` and Get Connection Fake Database
-- `yarn dev` to start the local server from 3000 port
-
-
-## build for production and launch server
-` yarn build`
-
-`yarn serve`
 
 
 ## MIT License
