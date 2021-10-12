@@ -7,6 +7,22 @@ This template should help get you started developing with Vue 3 in Vite. The tem
 - [VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=johnsoncodehk.volar)
     
 
+# Getting started
+=============
+
+- `yarn add` to install all required dependencies
+
+- `json-server -w db.json -p 3004` and Get Connection Fake Database
+
+- `yarn dev` to start the local server 3000 port
+
+=============
+
+# build for production and launch server
+$ yarn build
+$ yarn serve
+
+
 ## MIT License
 
 Copyright (c) 2021 Yunus Altın
