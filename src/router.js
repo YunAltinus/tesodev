@@ -10,7 +10,7 @@ const routes = [
     component: () => import("./views/list.vue"),
   },
   {
-    path: "/add-new-record",
+    path: "/new-record",
     component: () => import("./views/add-new-record.vue"),
   },
 ];

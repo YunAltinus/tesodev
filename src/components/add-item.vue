@@ -2,7 +2,7 @@
 </script>
 
 <template lang="pug">
-router-link.btn.add-item(:to="{ path: '/add-new-record' }") Add new record
+router-link.btn.add-item(:to="{ path: '/new-record' }") Add new record
 </template>
 
 <style lang="scss">
