@@ -7,7 +7,9 @@ for running locally:
 - `json-server -w db.json -p 3004` and Get Connection Fake Database
 - `yarn dev` to start the local server from 3000 port
 
-# Dependencies
+# Code Overview
+
+## Dependencies
 
 - **axios**: for HTTP request
 - **js-cookie**: for storing data 
@@ -22,7 +24,7 @@ for running locally:
 - **vuex-persistedstate**: for storing data in vuex
 - **yup**: for validation
 
-# devDependencies
+## devDependencies
 
 - **sass**: for css format
 
