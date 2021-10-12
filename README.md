@@ -16,7 +16,7 @@ for running locally:
 - **json-server**: for create fake database
 - **moment**: for date format (dd/mm/yyyy)
 - **pug**: for view engine
-- **v-pagination-3**: fpr pagination
+- **v-pagination-3**: for pagination
 - **vee-validate**: for validation
 - **vue** : vue app
 - **vue-router**": router
