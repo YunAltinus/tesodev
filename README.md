@@ -8,19 +8,16 @@ This template should help get you started developing with Vue 3 in Vite. The tem
     
 
 # Getting started
-=============
 
 - `yarn add` to install all required dependencies
-
 - `json-server -w db.json -p 3004` and Get Connection Fake Database
-
 - `yarn dev` to start the local server 3000 port
 
-=============
 
-# build for production and launch server
-$ yarn build
-$ yarn serve
+## build for production and launch server
+`$ yarn build
+
+$ yarn serve`
 
 
 ## MIT License
