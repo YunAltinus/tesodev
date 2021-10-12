@@ -1,0 +1,28 @@
+{
+  "name": "tesodev",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview"
+  },
+  "dependencies": {
+    "axios": "^0.21.4",
+    "js-cookie": "^3.0.1",
+    "json-server": "^0.17.0",
+    "moment": "^2.29.1",
+    "pug": "^3.0.2",
+    "v-pagination-3": "^0.1.6",
+    "vee-validate": "^4.5.2",
+    "vue": "^3.2.13",
+    "vue-router": "4",
+    "vuex": "^4.0.2",
+    "vuex-persistedstate": "^4.1.0",
+    "yup": "^0.32.10"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^1.9.0",
+    "sass": "^1.42.1",
+    "vite": "^2.5.10"
+  }
+}

@@ -1,0 +1,46 @@
+<script>
+export default {
+  data() {
+    return {
+      search: null,
+    };
+  },
+
+  watch: {
+    search(value) {
+      this.$store.commit("getSearchRecords", value)
+},
+  },
+};
+</script>
+
+<template lang="pug">
+.search
+  input.search__input(type="text", v-model="search")
+
+  button.search__btn.btn Search
+</template>
+
+<style lang="scss">
+@import "../assets/_varaibles.scss";
+@import "../assets/_mixin.scss";
+
+.search {
+  @include display-flex;
+  justify-content: space-between;
+
+  &__input {
+    height: 2.5rem;
+    min-width: 50vw;
+    padding: 0 1rem;
+    color: #888;
+    text-align: center;
+    @include border;
+  }
+
+  &__btn {
+    padding: 0.5rem 1rem;
+    margin-left: 1rem;
+  }
+}
+</style>
