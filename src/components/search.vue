@@ -6,6 +6,11 @@ export default {
     };
   },
 
+  onClick() {
+    // Tıkladıktan sonra istenilen veri çekilebilir
+    // fakar watch ile bu işlemi zaten izliyoruz
+  },
+
   watch: {
     search(value) {
       this.$store.commit("getSearchRecords", value)
@@ -18,7 +23,7 @@ export default {
 .search
   input.search__input(type="text", v-model="search")
 
-  button.search__btn.btn Search
+  button.search__btn.btn(@click="onClick") Search
 </template>
 
 <style lang="scss">
