@@ -19,7 +19,7 @@ for running locally:
 - **v-pagination-3**: for pagination
 - **vee-validate**: for validation
 - **vue** : vue app
-- **vue-router**": router
+- **vue-router**: router
 - **vuex**: state managment
 - **vuex-persistedstate**: for storing data in vuex
 - **yup**: for validation
