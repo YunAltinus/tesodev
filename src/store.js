@@ -7,7 +7,7 @@ const store = createStore({
   state: () => ({
     records: null,
     searchRecords: "",
-    onClickForSearch: null,
+    onClickForSearch: undefined,
   }),
 
   mutations: {
