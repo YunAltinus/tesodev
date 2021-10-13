@@ -8,7 +8,7 @@ for running locally:
 - `yarn dev` to start the local server from port 3000
 
 ## Info
-**no need to use the search button because we are already watching**
+**You don't need to use the search button where list page because we are already watching**
 
 # Demo
 
