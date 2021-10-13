@@ -18,22 +18,30 @@ export default {
       page: 1,
       recordsOfPage: [],
       length: 6,
-      result: [],
-      searchedRecords: []
+      searchedRecords: [],
+      result: null,
     };
   },
 
   computed: {
-    ...mapState(["records", "searchRecords"]),
+    ...mapState(["records", "searchRecords", "onClickForSearch"]),
 
     recordsPage() {
       return this.recordsOfPage;
     },
   },
+  watch: {
+    records(value) {
+      console.log(value);
+    },
+  },
 
   methods: {
-    getRecordsOfPage(numberOfPage = 1) {
-      !(this.result = []) ? this.result : (this.result = this.records);
+    async getRecordsOfPage(numberOfPage = 1) {
+      if (!this.result) {
+        await this.$store.dispatch("getRecords");
+        this.result = this.records;
+      }
 
       this.recordsOfPage = this.result?.slice(
         (numberOfPage - 1) * this.length,
@@ -61,6 +69,7 @@ export default {
       if (selectedValue == "Year descending") {
         this.result = this.records.sort(this.compeleForDate);
       }
+
       this.page = 1;
       this.getRecordsOfPage();
     },
@@ -102,10 +111,10 @@ export default {
 .list__container
   orderBy.order-by(v-if="!isHomePage", :getSelectedValue="getSelectedValue")
 
-  ul.list__container__content
+  ul.list__container__content(v-if="onClickForSearch")
     listItem(
       v-if="isHomePage",
-      v-for="record in records.slice(0, 3)",
+      v-for="record in onClickForSearch.slice(0, 3)",
       :record="record"
     )
 
