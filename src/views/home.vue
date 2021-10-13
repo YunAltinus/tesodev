@@ -1,4 +1,5 @@
 <script>
+import { mapState } from "vuex";
 import Logo from "../components/logo.vue";
 import Search from "../components/search.vue";
 import ListItems from "../components/list-items.vue";
@@ -16,6 +17,7 @@ export default {
       isHomePage: true,
     };
   },
+
 };
 </script>
 
@@ -27,7 +29,7 @@ export default {
 
   Search.search
 
-  List-items.list-items(:isHomePage="isHomePage")
+  List-items.list-items( :isHomePage="isHomePage")
 </template>
 
 <style lang="scss">
