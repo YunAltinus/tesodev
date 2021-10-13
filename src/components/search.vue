@@ -7,7 +7,6 @@ export default {
   },
   methods: {
     onClickForSearch() {
-      console.log(">>>>>>>>>>");
       // Tıkladıktan sonra istenilen veri çekilebilir
       // fakar watch ile bu işlemi "list page" zaten izliyoruz
 
