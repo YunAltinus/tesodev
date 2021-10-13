@@ -111,7 +111,7 @@ export default {
 .list__container
   orderBy.order-by(v-if="!isHomePage", :getSelectedValue="getSelectedValue")
 
-  ul.list__container__content(v-if="onClickForSearch")
+  ul.list__container__content
     listItem(
       v-if="isHomePage",
       v-for="record in onClickForSearch.slice(0, 3)",
