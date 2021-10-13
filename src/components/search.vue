@@ -5,16 +5,25 @@ export default {
       search: null,
     };
   },
+  methods: {
+    onClickForSearch() {
+      console.log(">>>>>>>>>>");
+      // Tıkladıktan sonra istenilen veri çekilebilir
+      // fakar watch ile bu işlemi "list page" zaten izliyoruz
 
-  onClick() {
-    // Tıkladıktan sonra istenilen veri çekilebilir
-    // fakar watch ile bu işlemi zaten izliyoruz
+      const result = this.$store.state.records.filter((record) => {
+        return record.NameSurname.toLowerCase().includes(
+          this.search.toLowerCase()
+        );
+      });
+      this.$store.commit("getOnClickForSearch", result)
+    },
   },
 
   watch: {
     search(value) {
-      this.$store.commit("getSearchRecords", value)
-},
+      this.$store.commit("getSearchRecords", value);
+    },
   },
 };
 </script>
@@ -23,7 +32,7 @@ export default {
 .search
   input.search__input(type="text", v-model="search")
 
-  button.search__btn.btn(@click="onClick") Search
+  button.search__btn.btn(@click="onClickForSearch") Search
 </template>
 
 <style lang="scss">
