@@ -5,17 +5,22 @@ import { appAxios } from "./lib/app-axios";
 
 const store = createStore({
   state: () => ({
-    records: [],
+    records: null,
     searchRecords: "",
+    onClickForSearch: null,
   }),
 
   mutations: {
-    getRecords(state, records = []) {
-      state.records = records;
+    async getRecords(state, records) {
+      state.records = await records;
     },
 
-    getSearchRecords(state, searchValue) {
-      state.searchRecords = searchValue;
+    async getSearchRecords(state, searchValue) {
+      state.searchRecords = await searchValue;
+    },
+
+    getOnClickForSearch(state, onClickForSearch) {
+      state.onClickForSearch = onClickForSearch;
     },
   },
 
