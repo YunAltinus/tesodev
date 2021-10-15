@@ -1,4 +1,14 @@
+# Demo
+
+[vue-tesodev](https://vue-tesodev.netlify.app)
+
+## Fake Database API
+
+https://tesodev-db.herokuapp.com/
+
+
 # Getting started
+https://tesodev-db.herokuapp.com/
 
 for running locally:
 
@@ -9,10 +19,6 @@ for running locally:
 
 ## Info
 **You don't need to use the search button where list page because we are already watching**
-
-# Demo
-
-[vue-tesodev](https://vue-tesodev.netlify.app)
 
 # Code Overview
 
