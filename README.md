@@ -8,8 +8,6 @@ https://tesodev-db.herokuapp.com/
 
 
 # Getting started
-https://tesodev-db.herokuapp.com/
-
 for running locally:
 
 - Clone this repo
