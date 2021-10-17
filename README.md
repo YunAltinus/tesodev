@@ -37,7 +37,7 @@ for running locally:
 
 ## devDependencies
 
-- **sass**: for css format
+- **sass**: format for css
 
 
 
